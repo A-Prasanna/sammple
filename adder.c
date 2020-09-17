@@ -1,8 +1,11 @@
+#include "addThemAll.h"
 #include<stdio.h>
+
+int addThemAll(int, int, int);
+
 int main()
 {
-    int a=10,b=20,sum;
-    sum=a+b;
-    printf("sum=%d",sum);
-    //code
+    int sum = addThemAll(12,13,14);
+    printf("%d", sum);
+    return 0;
 }
