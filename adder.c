@@ -1,11 +1,11 @@
-#include "addThemAll.h"
+#include "adder.h"
 #include<stdio.h>
 
-int addThemAll(int, int, int);
+int adder(int, int, int);
 
 int main()
 {
-    int sum = addThemAll(12,13,14);
+    int sum = adder(12,13,14);
     printf("%d", sum);
     return 0;
 }
